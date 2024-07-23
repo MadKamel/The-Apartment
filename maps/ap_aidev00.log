@@ -1,0 +1,189 @@
+hlcsg v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlcsg.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00" -low -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.00 seconds)
+CSGBrush:
+ (0.01 seconds)
+
+Including Wadfile: /Program Files/J.A.C.K/halflife/zhlt.wad
+ - Contains 1 used texture, 50.00 percent of map (19 textures in wad)
+Using Wadfile: /Program Files (x86)/Steam/steamapps/common/Half-Life/apartment/throwdown.wad
+ - Contains 1 used texture, 50.00 percent of map (15 textures in wad)
+
+Wad files required to run the map: "throwdown.wad;"
+Texture usage is at 0.01 mb (of 32.00 mb MAX)
+0.02 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlbsp.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 70 (0.01 seconds)
+Warning: === LEAK in hull 0 ===
+Entity aiscripted_sequence @ (  96, 544,   0)
+Error: 
+  A LEAK is a hole in the map, where the inside of it is exposed to the
+(unwanted) outside region.  The entity listed in the error is just a helpful
+indication of where the beginning of the leak pointfile starts, so the
+beginning of the line can be quickly found and traced to until reaching the
+outside. Unless this entity is accidentally on the outside of the map, it
+probably should not be deleted.  Some complex rotating objects entities need
+their origins outside the map.  To deal with these, just enclose the origin
+brush with a solid world brush
+
+Leak pointfile generated
+
+SolidBSP [hull 1] 77 (0.00 seconds)
+Warning: === LEAK in hull 1 ===
+Entity aiscripted_sequence @ (  96, 544,   0)
+SolidBSP [hull 2] 77 (0.00 seconds)
+Warning: === LEAK in hull 2 ===
+Entity aiscripted_sequence @ (  96, 544,   0)
+SolidBSP [hull 3] 77 (0.00 seconds)
+Warning: === LEAK in hull 3 ===
+Entity aiscripted_sequence @ (  96, 544,   0)
+Reduced 246 clipnodes to 224
+Reduced 15 texinfos to 13
+Reduced 2 texdatas to 2 (1204 bytes to 1204)
+Reduced 230 planes to 108
+FixBrinks:
+Increased 224 clipnodes to 224.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              2/512          128/32768    ( 0.4%)
+planes            108/32768       2160/655360   ( 0.3%)
+vertexes          636/65535       7632/786420   ( 1.0%)
+nodes              75/32767       1800/786408   ( 0.2%)
+texinfos           13/32767        520/1310680  ( 0.0%)
+faces             520/65535      10400/1310700  ( 0.8%)
+* worldfaces      519/32768          0/0        ( 1.6%)
+clipnodes         224/32767       1792/262136   ( 0.7%)
+leaves             54/32760       1512/917280   ( 0.2%)
+* worldleaves      47/8192           0/0        ( 0.6%)
+marksurfaces      531/65535       1062/131070   ( 0.8%)
+surfedges        2274/512000      9096/2048000  ( 0.4%)
+edges            1159/256000      4636/1024000  ( 0.5%)
+texdata          [variable]       1204/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       1257/2097152  ( 0.1%)
+* AllocBlock        6/64             0/0        ( 9.4%)
+2 textures referenced
+=== Total BSP file data space used: 43199 bytes ===
+Wad files required to run the map: "throwdown.wad;"
+0.12 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlvis.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00.log for the cause.
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlrad.exe" -extra "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00" 
+Arguments: -extra "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\apartment\maps\ap_aidev00.log for the cause.
+
+-----   END   hlrad -----
+
+
+

@@ -1,0 +1,10 @@
+// .fgd for Throwdown.
+
+@PointClass = point_print
+[
+	targetname(target_source) : "Name" : ""
+	message(string) : "Message" : "You've activated a point_print."
+]
+
+@PointClass base(Weapon, Targetx) studio("models/w_crowbar.mdl") = weapon_sledgehammer : "Lead Pipe" []
+@PointClass base(Weapon, Targetx) studio("models/w_9mmAR.mdl") = weapon_50cal : "Barrett" []

@@ -1,0 +1,219 @@
+sdHLCSG v1.1.2 (Sep  9 2022)
+seedee's Half-Life Compilation Tools
+Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
+-----  BEGIN  sdHLCSG -----
+Command line: C:/Users/perso/Downloads/sdhlt_v112/tools/sdHLCSG.exe D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01 
+Arguments: D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01 -low 
+Entering D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01.map
+
+Current sdHLCSG Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       4 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [      on ] [      on ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+world extent          [   65536 ] [   65536 ]
+
+Using mapfile wad configuration
+Wadinclude list :
+[sdhlt.wad]
+
+CreateBrush:
+ (0.00 seconds)
+CSGBrush:
+ (0.03 seconds)
+
+Using Wadfile: /SteamLibrary/steamapps/common/Half-Life/valve/decals.wad
+ - Contains 0 used textures, 0.00 percent of map (222 textures in wad)
+Using Wadfile: /SteamLibrary/steamapps/common/Half-Life/valve/liquids.wad
+ - Contains 0 used textures, 0.00 percent of map (32 textures in wad)
+Using Wadfile: /SteamLibrary/steamapps/common/Half-Life/valve/xeno.wad
+ - Contains 1 used texture, 14.29 percent of map (264 textures in wad)
+Using Wadfile: /SteamLibrary/steamapps/common/Half-Life/valve/halflife.wad
+ - Contains 5 used textures, 71.43 percent of map (3116 textures in wad)
+Using Wadfile: /SteamLibrary/steamapps/common/Half-Life/apartment/throwdown.wad
+ - Contains 1 used texture, 14.29 percent of map (15 textures in wad)
+
+Wad files required to run the map: "decals.wad;liquids.wad;xeno.wad;halflife.wad;throwdown.wad;"
+Texture usage is at 0.08 mb (of 32.00 mb MAX)
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              0/512            0/32768    ( 0.0%)
+planes            290/32768       5800/655360   ( 0.9%)
+vertexes            0/65535          0/786420   ( 0.0%)
+nodes               0/32767          0/786408   ( 0.0%)
+texinfos           43/32767       1720/1310680  ( 0.1%)
+faces               0/65535          0/1310700  ( 0.0%)
+* worldfaces        0/32768          0/0        ( 0.0%)
+clipnodes           0/32767          0/262136   ( 0.0%)
+leaves              0/32760          0/917280   ( 0.0%)
+* worldleaves       0/8192           0/0        ( 0.0%)
+marksurfaces        0/65535          0/131070   ( 0.0%)
+surfedges           0/512000         0/2048000  ( 0.0%)
+edges               0/256000         0/1024000  ( 0.0%)
+texdata          [variable]        312/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]        797/2097152  ( 0.0%)
+* AllocBlock        0/64             0/0        ( 0.0%)
+7 textures referenced
+=== Total BSP file data space used: 8629 bytes ===
+Wad files required to run the map: "decals.wad;liquids.wad;xeno.wad;halflife.wad;throwdown.wad;"
+0.15 seconds elapsed
+
+-----   END   sdHLCSG -----
+
+
+
+sdHLBSP v1.1.2 (Sep  9 2022)
+seedee's Half-Life Compilation Tools
+Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
+-----  BEGIN  sdHLBSP -----
+Command line: C:/Users/perso/Downloads/sdhlt_v112/tools/sdHLBSP.exe D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01 
+Arguments: D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01 -low 
+
+Current sdHLBSP Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       4 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [      on ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 43 (0.00 seconds)
+Warning: === LEAK in hull 0 ===
+Entity cycler_sprite @ ( 214,-159,  64)
+Error: 
+  A LEAK is a hole in the map, where the inside of it is exposed to the
+(unwanted) outside region.  The entity listed in the error is just a helpful
+indication of where the beginning of the leak pointfile starts, so the
+beginning of the line can be quickly found and traced to until reaching the
+outside. Unless this entity is accidentally on the outside of the map, it
+probably should not be deleted.  Some complex rotating objects entities need
+their origins outside the map.  To deal with these, just enclose the origin
+brush with a solid world brush
+
+Leak pointfile generated
+
+SolidBSP [hull 1] 25 (0.00 seconds)
+Warning: === LEAK in hull 1 ===
+Entity info_player_start @ ( 432,-152, 100)
+SolidBSP [hull 2] 37 (0.00 seconds)
+Warning: === LEAK in hull 2 ===
+Entity light_environment @ ( 648,-240,  96)
+SolidBSP [hull 3] 27 (0.01 seconds)
+Warning: === LEAK in hull 3 ===
+Entity info_player_start @ ( 432,-152, 100)
+Reduced 86 clipnodes to 82
+Reduced 43 texinfos to 27
+Reduced 7 texdatas to 7 (312 bytes to 312)
+Reduced 290 planes to 77
+FixBrinks:
+Increased 82 clipnodes to 82.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              1/512           64/32768    ( 0.2%)
+planes             77/32768       1540/655360   ( 0.2%)
+vertexes          300/65535       3600/786420   ( 0.5%)
+nodes              42/32767       1008/786408   ( 0.1%)
+texinfos           27/32767       1080/1310680  ( 0.1%)
+faces             211/65535       4220/1310700  ( 0.3%)
+* worldfaces      211/32768          0/0        ( 0.6%)
+clipnodes          82/32767        656/262136   ( 0.3%)
+leaves             21/32760        588/917280   ( 0.1%)
+* worldleaves      20/8192           0/0        ( 0.2%)
+marksurfaces      232/65535        464/131070   ( 0.4%)
+surfedges        1030/512000      4120/2048000  ( 0.2%)
+edges             516/256000      2064/1024000  ( 0.2%)
+texdata          [variable]        312/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]        797/2097152  ( 0.0%)
+* AllocBlock        2/64             0/0        ( 3.1%)
+7 textures referenced
+=== Total BSP file data space used: 20513 bytes ===
+Wad files required to run the map: "decals.wad;liquids.wad;xeno.wad;halflife.wad;throwdown.wad;"
+0.18 seconds elapsed
+
+-----   END   sdHLBSP -----
+
+
+
+sdHLVIS v1.1.2 (Sep  9 2022)
+seedee's Half-Life Compilation Tools
+Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
+-----  BEGIN  sdHLVIS -----
+Command line: C:/Users/perso/Downloads/sdhlt_v112/tools/sdHLVIS.exe D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01 
+Arguments: D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01 -low 
+>> There was a problem compiling the map.
+>> Check the file D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01.log for the cause.
+
+-----   END   sdHLVIS -----
+
+
+
+sdHLRAD v1.1.2 (Sep  9 2022)
+seedee's Half-Life Compilation Tools
+Based on code modifications by Sean 'Zoner' Cavanaugh and Vluzacn
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (github.com/seedee/SDHLT/issues)
+-----  BEGIN  sdHLRAD -----
+Command line: C:/Users/perso/Downloads/sdhlt_v112/tools/sdHLRAD.exe D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01 
+Arguments: D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01 -low 
+>> There was a problem compiling the map.
+>> Check the file D:\SteamLibrary\steamapps\common\Half-Life\apartment\maps\ap_prologue01.log for the cause.
+
+-----   END   sdHLRAD -----
+
+
+
