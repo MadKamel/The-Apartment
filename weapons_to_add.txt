@@ -2,7 +2,7 @@ Sledgehammer (weapon_sledgehammer):
 
 	Viewmodel (not started)
 	Worldmodel (not started)
-	Functionality (not started)
+	Functionality (implemented!)
 
 	The Sledgehammer is the most useful weapon at your disposal because it is powerful and will never run out of ammunition. It has low range, but compensates with sheer power. Because of its heft, this weapon is a little slow to swing, and whiffs are punishingly slow. Be careful not to miss with this thing, or you'll be open to a counterattack.
 
@@ -10,8 +10,8 @@ Sledgehammer (weapon_sledgehammer):
 
 Barret M82 (weapon_m82):
 
-	Viewmodel (not started)
-	Worldmodel (not started)
+	Viewmodel (started, not finished)
+	Worldmodel (started, not textured)
 	Functionality(not started)
 
 	The Barret M82 is a powerful and heavy .50 BMG rifle that can hold 10 rounds per magazine. It is useful for picking off targets at medium or long ranges. It is very powerful, but ammunition for it is usually scarce. You will need to spend more time with the other weapons at your disposal, saving the Barrett for when you need to pick off enemies from a distance. The Barrett can be fired rapidly, despite its size and heft. Uses its own ammo.
